@@ -177,7 +177,7 @@ export function SidebarToggle() {
   return (
     <button
       onClick={() => setIsOpen(!isOpen)}
-      className="lg:hidden p-2 rounded-md  text-black hover:bg-slate-700 transition-colors fixed top-4 left-4 z-50"
+      className="lg:hidden p-2 rounded-md lg:text-white text-black hover:bg-slate-700 transition-colors fixed top-4 left-4 z-50"
       aria-label="Toggle sidebar"
     >
       <Menu className="w-5 h-5" />
